@@ -12,6 +12,7 @@
       </div>
     </div>
     <div class="container shadow"><router-view/></div>
+    <div class="github shadow"><a href="https://github.com/LarsonAR/creative3">Github</a></div>
   </div>
 </template>
 
@@ -41,5 +42,13 @@ body {
 .container {
   padding: 10px 15px;
   background-color: white;
+}
+
+.github {
+  text-align: center;
+  width: 10em;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
 }
 </style>
