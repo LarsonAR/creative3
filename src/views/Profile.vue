@@ -54,7 +54,7 @@ export default {
     background-color: #497575;
     border-radius: 10px;
   }
-  .col-6 {
+  .col-sm-6 {
     margin-bottom: 12px !important;
   }
   #bio {
